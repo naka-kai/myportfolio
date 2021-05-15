@@ -1,0 +1,60 @@
+@charset 'utf-8';
+
+@import 'style.scss';
+
+
+//mainvisual
+
+.mainvisual {
+  content: '';
+  background-image: url(../img/mv.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+
+  @include mpc {
+    height: 100vh;
+  }
+}
+
+.thanks_bg {
+  position: absolute;
+  top: 20%;
+  background-color: rgba(2, 216, 250, .2);
+  z-index: 8;
+  mix-blend-mode: multiply;
+  border-radius: 1rem;
+  padding: .5rem;
+  margin: 0 1rem;
+
+  @media screen and (min-width: 462px) {
+    padding: 2rem;
+    border-radius: 50% 25% 60% 30%/50% 40% 80% 60%;
+  }
+
+  @media screen and (min-width: 671px) {
+    top: 30%;
+  }
+
+  @include ipad {
+    border-radius: 50% 25% 60% 30%/50% 40% 80% 60%;
+    display: block;
+    right: 10%;
+    padding: 3rem 4rem;
+  }
+}
+
+.thanks_text {
+  font-size: 1rem;
+  line-height: 1.4;
+  z-index: 20;
+  color: #1C1C1C;
+
+  @include mpc {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+}

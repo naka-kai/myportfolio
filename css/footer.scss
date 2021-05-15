@@ -1,0 +1,14 @@
+@charset 'utf-8';
+
+@import 'style.scss';
+
+//footer
+
+.footer {
+  background-color: #696969;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+}

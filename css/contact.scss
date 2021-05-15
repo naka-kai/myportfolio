@@ -1,0 +1,111 @@
+@charset 'utf-8';
+
+@import 'style.scss';
+
+
+//contact
+
+.contact {
+  background-color: rgba(2, 216, 250, .1);
+  padding: 3rem 0;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.contact-container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 100rem;
+}
+
+.contact_form {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contact_form-name {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.contact_form-name-label {
+  text-align: left;
+  position: relative;
+
+  &::after {
+    content: "＊";
+    color: red;
+    font-size: .8rem;
+    font-weight: bold;
+  }
+}
+
+.contact_form-name-text {
+  margin-top: .4rem;
+  padding: .5rem;
+}
+
+.contact_form-mail {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto 0;
+}
+
+.contact_form-mail-label {
+  text-align: left;
+
+  &::after {
+    content: "＊";
+    color: red;
+    font-size: .8rem;
+    font-weight: bold;
+  }
+}
+
+.contact_form-mail-text {
+  margin-top: .5rem;
+  padding: .5rem;
+}
+
+.contact_form-message {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto 0;
+}
+
+.contact_form-message-label {
+  text-align: left;
+
+  &::after {
+    content: "＊";
+    color: red;
+    font-size: .8rem;
+    font-weight: bold;
+  }
+}
+
+.contact_form-message-text {
+  margin-top: .5rem;
+  padding: .5rem;
+}
+
+.contact_form-btn-box {
+  margin-top: 1rem;
+}
+
+.contact_form-btn {
+  max-width: 20rem;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  background-color: rgba(0, 191, 255, .7);
+  opacity: .8;
+  border: #696969 1px solid;
+  color: #000;
+  padding: .5rem 0;
+  font-size: 1rem;
+}

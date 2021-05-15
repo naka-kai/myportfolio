@@ -1,0 +1,148 @@
+@charset 'utf-8';
+
+@import 'style.scss';
+
+
+//service
+
+.service {
+  height: auto;
+  padding: 3rem 0;
+  background-color: rgba(2, 216, 250, .1);
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.service_text {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.service_title {
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 3px 3px 3px #808080;
+}
+
+.service_description {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.far {
+  font-size: 7rem;
+  color: #000;
+  opacity: .8;
+
+  @include ipad {
+    font-size: 10rem;
+  }
+}
+
+.fas {
+  font-size: 4rem;
+  color: #000;
+  opacity: .8;
+
+  @include ipad {
+    font-size: 6rem;
+  }
+}
+
+.service_coding-title-wrapper {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.service_coding-title {
+  display: inline-block;
+  font-size: 1.8rem;
+  background: linear-gradient(transparent 70%, $deepskyblue);
+  color: #696969;
+}
+
+.service_icon-top {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.service_icon-mid {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.service_icon-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 33rem;
+}
+
+.fa-tablet-alt {
+  font-size: 3.5rem;
+}
+
+.fa-mobile-alt {
+  font-size: 3.5rem;
+}
+
+.service_coding-text {
+  margin-top: 3rem;
+  color: #696969;
+  text-align: center;
+}
+
+.service_icon-wrapper2 {
+  max-width: 535px;
+  margin: 0 auto;
+}
+
+.service_htmlAndCss-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.service_htmlAndCss-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.fab {
+  font-size: 3rem;
+  margin-right: 1rem;
+  color: #000;
+  opacity: .8;
+}
+
+.service_htmlAndCss-text {
+  color: #696969;
+}
+
+.service_js-wrapper {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.service_js-text {
+  color: #696969;
+}
+
+.service_sass-wrapper {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.service_sass-text {
+  color: #696969;
+}

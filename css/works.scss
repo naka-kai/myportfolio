@@ -1,0 +1,77 @@
+@charset 'utf-8';
+
+@import 'style.scss';
+
+
+//works
+
+.works {
+  height: auto;
+  background-color: white;
+  padding: 3rem 0;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.works_text {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.works_title {
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 3px 3px 3px #808080;
+}
+
+.works_description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.works_basic {
+  margin-top: .5rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.works_cardlayout-wrapper {
+  margin-top: 1rem;
+}
+
+.works_card-list-wrapper {
+
+  @include ipad {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.works_card-list {
+  box-shadow: 3px 3px 3px #808080;
+  margin-top: 2rem;
+
+  @include ipad {
+    width: calc(96% / 2);
+  }
+}
+
+.works-card-link {
+  color: #696969;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.works_card-figure {
+
+  img {
+    width: 100%;
+  }
+}
+
+.works-card-text {
+  padding: 1rem;
+}

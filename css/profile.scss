@@ -1,0 +1,71 @@
+@charset 'utf-8';
+
+@import 'style.scss';
+
+.profile {
+  padding: 3rem 0;
+  font-size: 1.1rem;
+  line-height: 1.2;
+
+  @include ipad {
+    font-size: 1.3rem;
+  }
+}
+
+.profile_container {
+  max-width: 100rem;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width:450px) {}
+}
+
+.plofile_text {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.plofile_title {
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 3px 3px 3px #808080;
+}
+
+.plofile_main-box {
+
+  @media screen and (min-width:450px) {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+.profile_img-box {
+  margin: 3rem auto 0;
+
+  @media screen and (min-width:450px) {
+    width: 40%;
+    max-width: 20rem;
+  }
+}
+
+.profile_img {
+  display: block;
+  width: 100%;
+  box-shadow: 3px 3px 3px #808080;
+}
+
+.profile_text {
+  margin-top: 1rem;
+  color: #696969;
+
+  @media screen and (min-width:450px) {
+    width: 70%;
+    margin-right: auto;
+    margin-left: 1rem;
+    margin-top: 4rem;
+  }
+
+  @include mpc {
+    font-size: 1.5rem;
+  }
+}

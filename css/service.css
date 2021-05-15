@@ -1,0 +1,393 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+body {
+  color: #000;
+  font-size: 62.5%;
+  /* -> 10px; */
+  font-family: 'Noto Serif JP', serif;
+  color: #000;
+}
+
+body.noscroll {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+ul {
+  list-style: none;
+}
+
+.smallNone {
+  display: none;
+}
+
+@media (min-width: 1280px) {
+  .smallNone {
+    display: block;
+  }
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.service {
+  height: auto;
+  padding: 3rem 0;
+  background-color: rgba(2, 216, 250, 0.1);
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.service_text {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.service_title {
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 3px 3px 3px #808080;
+}
+
+.service_description {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.far {
+  font-size: 7rem;
+  color: #000;
+  opacity: .8;
+}
+
+@media (min-width: 768px) {
+  .far {
+    font-size: 10rem;
+  }
+}
+
+.fas {
+  font-size: 4rem;
+  color: #000;
+  opacity: .8;
+}
+
+@media (min-width: 768px) {
+  .fas {
+    font-size: 6rem;
+  }
+}
+
+.service_coding-title-wrapper {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.service_coding-title {
+  display: inline-block;
+  font-size: 1.8rem;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), to(#00bfff));
+  background: linear-gradient(transparent 70%, #00bfff);
+  color: #696969;
+}
+
+.service_icon-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+
+.service_icon-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+.service_icon-bottom-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 33rem;
+}
+
+.fa-tablet-alt {
+  font-size: 3.5rem;
+}
+
+.fa-mobile-alt {
+  font-size: 3.5rem;
+}
+
+.service_coding-text {
+  margin-top: 3rem;
+  color: #696969;
+  text-align: center;
+}
+
+.service_icon-wrapper2 {
+  max-width: 535px;
+  margin: 0 auto;
+}
+
+.service_htmlAndCss-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service_htmlAndCss-icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fab {
+  font-size: 3rem;
+  margin-right: 1rem;
+  color: #000;
+  opacity: .8;
+}
+
+.service_htmlAndCss-text {
+  color: #696969;
+}
+
+.service_js-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service_js-text {
+  color: #696969;
+}
+
+.service_sass-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service_sass-text {
+  color: #696969;
+}
+/*# sourceMappingURL=service.css.map */
