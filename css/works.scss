@@ -8,7 +8,7 @@
 .works {
   height: auto;
   background-color: white;
-  padding: 3rem 0;
+  padding: 5rem 0 3rem;
   font-size: 1.3rem;
   line-height: 1.2;
 }
@@ -43,10 +43,22 @@
 }
 
 .works_card-list-wrapper {
+  display: flex;
+  flex-direction: column;
 
   @include ipad {
     display: flex;
     justify-content: space-between;
+  }
+}
+
+.works_card-list1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @include ipad {
+    flex-direction: row;
   }
 }
 

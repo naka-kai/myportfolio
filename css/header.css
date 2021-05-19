@@ -274,6 +274,13 @@ ul {
   height: 100vh;
 }
 
+@media (min-width: 1280px) {
+  .header_gnav-wrapper.slide-in {
+    height: 0;
+    background-color: transparent;
+  }
+}
+
 .header_gnav {
   display: -webkit-box;
   display: -ms-flexbox;
