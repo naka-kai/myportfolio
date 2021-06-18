@@ -353,6 +353,18 @@ ul {
   opacity: .8;
 }
 
+.fa-wordpress {
+  font-size: 7rem;
+  color: #000;
+  opacity: .8;
+}
+
+@media (min-width: 768px) {
+  .fa-wordpress {
+    font-size: 10rem;
+  }
+}
+
 .service_htmlAndCss-text {
   color: #696969;
 }

@@ -50,6 +50,8 @@
   }
 }
 
+
+
 .service_coding-title-wrapper {
   text-align: center;
   margin-top: 1.5rem;
@@ -118,6 +120,16 @@
   margin-right: 1rem;
   color: #000;
   opacity: .8;
+}
+
+.fa-wordpress {
+  font-size: 7rem;
+  color: #000;
+  opacity: .8;
+
+  @include ipad {
+    font-size: 10rem;
+  }
 }
 
 .service_htmlAndCss-text {

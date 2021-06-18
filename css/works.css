@@ -268,7 +268,7 @@ ul {
   }
 }
 
-.works_card-list1 {
+.works_card-list1, .works_card-list2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -282,7 +282,7 @@ ul {
 }
 
 @media (min-width: 768px) {
-  .works_card-list1 {
+  .works_card-list1, .works_card-list2 {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
