@@ -32,15 +32,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600;1,700&display=swap"
     rel="stylesheet">
 
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- css -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/mainvisual.css">
-  <link rel="stylesheet" href="css/service.css">
-  <link rel="stylesheet" href="css/works.css">
-  <link rel="stylesheet" href="css/contact.css">
-  <link rel="stylesheet" href="css/profile.css">
-  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="public/css/style.css">
+  <link rel="stylesheet" href="public/css/header.css">
+  <link rel="stylesheet" href="public/css/mainvisual.css">
+  <link rel="stylesheet" href="public/css/service.css">
+  <link rel="stylesheet" href="public/css/works.css">
+  <link rel="stylesheet" href="public/css/contact.css">
+  <link rel="stylesheet" href="public/css/profile.css">
+  <link rel="stylesheet" href="public/css/footer.css">
 
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -70,13 +73,13 @@
     </div>
   </header>
 
+  <!-- mainvisual -->
   <section class="mainvisual">
     <div class="thanks">
-      <div class="thanks_bg">
+      <div class="thanks_bg" data-aos="zoom-in" data-aos-duration="1200">
         <p class="thanks_text">ホームページにお越しいただきありがとうございます。<br>
-          Web制作を行っております、中島三希子と申します。<br>
-          お客様の事業の成長につながるお手伝いを<br class="smallNone">させていただきたいと考えています。<br>
-          まずはお気軽にご相談ください。<br>
+          中島三希子と申します。<br>
+          日々勉学に励んでおります。
         </p>
       </div>
     </div>
@@ -84,17 +87,17 @@
 
   <section class="profile" id="profile">
     <div class="container profile_container">
-      <div class="plofile_text-box">
+      <div class="plofile_text-box" data-aos="fade-up" data-aos-duration="900">
         <p class="plofile_text">プロフィール</p>
         <h1 class="plofile_title">Plofile</h1>
       </div>
-      <div class="plofile_main-box">
+      <div class="plofile_main-box" data-aos="fade-up" data-aos-duration="900">
         <figure class="profile_img-box"><img class="profile_img" src="img/faceimg.jpg" alt="中島三希子"></figure>
         <p class="profile_text">大阪出身・宮城在住の27歳。<br>
           私は今までコンビニ店員として様々なお客様の接客経験、
           CADオペレーターとしてPC業務経験があります。<br>
           本名は中島三希子なのですが、LGBTで女の子の名前が好きではなく、よく海(かい)と呼ばれています。<br>
-          2021年3月頃より、独学にてWeb制作を学び始めました。<br>
+          2021年3月頃より、独学にてWeb制作やアプリ開発を学び始めました。<br>
           現在は日々学習を継続しております。
         </p>
       </div>
@@ -103,12 +106,14 @@
 
   <section class="service" id="service">
     <div class="container">
-      <p class="service_text">サービス</p>
-      <h1 class="service_title">Service</h1>
+      <p class="service_text" data-aos="fade-up" data-aos-duration="900">サービス</p>
+      <h1 class="service_title" data-aos="fade-up" data-aos-duration="900">Service</h1>
+
+      <!-- Coding -->
       <div class="service_coding-title-wrapper">
-        <h2 class="service_coding-title">コーディング</h2>
+        <h2 class="service_coding-title" data-aos="fade-up" data-aos-duration="900">コーディング</h2>
       </div>
-      <div class="service_icon-wrapper">
+      <div class="service_icon-wrapper" data-aos="fade-up" data-aos-duration="900">
         <div class="service_icon-top">
           <i class="fas fa-desktop"></i>
         </div>
@@ -124,95 +129,242 @@
       </div>
       <div class="service_icon-wrapper2">
         <div class="service_bottom-container">
-          <p class="service_coding-text">デザインカンプに正確かつ忠実なコーディングを行います。<br><br>
+          <p class="service_coding-text" data-aos="fade-up" data-aos-duration="900">デザインカンプに正確かつ忠実なコーディングを行います。<br><br>
             パソコンからだけでなくスマートフォンなどどのデバイスからも見栄えの良いレスポンシブ対応も可能です。</p>
-          <div class="service_htmlAndCss-wrapper">
+          <div class="service_htmlAndCss-wrapper" data-aos="fade-up" data-aos-duration="900">
             <div class="service_htmlAndCss-icon-wrapper">
               <i class="fab fa-html5"></i>
               <i class="fab fa-css3-alt"></i>
             </div>
             <p class="service_htmlAndCss-text">HTML5とCSS3でWebサイトの見た目を整えます。</p>
           </div>
-          <div class="service_js-wrapper">
+          <div class="service_js-wrapper" data-aos="fade-up" data-aos-duration="900">
             <i class="fab fa-js-square"></i>
             <p class="service_js-text">JavaScriptやjQueryでハンバーガーメニュー・最上部へ戻るボタンなど、Webサイトに動きをつけます。</p>
           </div>
-          <div class="service_sass-wrapper">
+          <div class="service_sass-wrapper" data-aos="fade-up" data-aos-duration="900">
             <i class="fab fa-sass"></i>
             <p class="service_sass-text">Sassを使って効率的に、保守しやすいコードを書きます。</p>
           </div>
         </div>
       </div>
 
-      <div class="service_coding-title-wrapper">
+      <!-- WordPress -->
+      <div class="service_coding-title-wrapper2" data-aos="fade-up" data-aos-duration="900">
         <h2 class="service_coding-title">Wordpress</h2>
       </div>
-      <div class="service_icon-wrapper">
+      <div class="service_icon-wrapper" data-aos="fade-up" data-aos-duration="900">
         <div class="service_icon-mid">
           <i class="fab fa-wordpress"></i>
         </div>
       </div>
-      <div class="service_icon-wrapper2">
+      <div class="service_icon-wrapper2" data-aos="fade-up" data-aos-duration="900">
         <div class="service_bottom-container">
           <p class="service_coding-text">WordPressを使用したWebサイト構築を行います。
           </p>
         </div>
       </div>
 
+      <!-- Laravel -->
+      <div class="service_coding-title-wrapper2" data-aos="fade-up" data-aos-duration="900">
+        <h2 class="service_coding-title">Laravel</h2>
+      </div>
+      <div class="service_icon-wrapper" data-aos="fade-up" data-aos-duration="900">
+        <div class="service_icon-mid">
+          <i class="fab fa-laravel"></i>
+        </div>
+      </div>
+      <div class="service_icon-wrapper2" data-aos="fade-up" data-aos-duration="900">
+        <div class="service_bottom-container">
+          <p class="service_coding-text">Laravelを使用したWebアプリ構築を行います。
+          </p>
+        </div>
+      </div>
+
+
+
     </div>
   </section>
 
   <section class="works" id="works">
     <div class="container">
-      <p class="works_text">実績</p>
-      <h1 class="works_title">Works</h1>
-      <p class="works_description">制作実績を載せております</p>
-      <p class="works_basic">Besic認証をかけておりますのでIDとパスワードの入力をお願い致します。<br>
+      <p class="works_text" data-aos="fade-up" data-aos-duration="900">実績</p>
+      <h1 class="works_title" data-aos="fade-up" data-aos-duration="900">Works</h1>
+      <p class="works_description" data-aos="fade-up" data-aos-duration="900">制作実績を載せております</p>
+      <p class="works_basic" data-aos="fade-up" data-aos-duration="900">Besic認証をかけておりますのでIDとパスワードの入力をお願い致します。<br>
         ID:admin Pass:portfolio</p>
       <div class="works_cardlayout-wrapper">
         <div class="works_card-list-wrapper">
           <div class="works_card-list1">
-            <div class="works_card-list">
+
+            <!-- 総合内科のコーポレートサイト -->
+            <div class="works_card-list" data-aos="flip-left" data-aos-duration="1200">
               <a class="works-card-link" href="https://kaiblo.com/portfolio/beginnerEx/" rel="noreferrer noopener"
                 target="_blank">
                 <figure class="works_card-figure"><img src="img/石井総合内科クリニック.png" alt="石井総合内科クリニック"></figure>
                 <p class="works-card-text">デザインカンプからのコーディング<br>
-                  サンプル<br>
-                  (HTML/CSS/Sass)
+                  総合内科のコーポレートサイト（架空）<br>
+                  ※解答コードなしの教材<br>
+                  <br>
+                  スキル：HTML/CSS/Sass<br>
+                  制作期間：4日間<br>
+                  デザインツール：XD
                 </p>
               </a>
             </div>
-            <div class="works_card-list">
+
+            <!-- コーディング代行会社のコーポレートサイト -->
+            <div class="works_card-list" data-aos="flip-left" data-aos-duration="1200">
               <a class="works-card-link" href="https://kaiblo.com/portfolio/medium/" rel="noreferrer noopener"
                 target="_blank">
                 <figure class="works_card-figure"><img src="img/yourcoding.png" alt="ユアコーディング"></figure>
                 <p class="works-card-text">デザインカンプからのコーディング<br>
-                  サンプル<br>
-                  (HTML/CSS/jQuery/Sass)
+                  コーディング代行会社のコーポレートサイト（架空）<br>
+                  ※解答コードなしの教材<br>
+                  <br>
+                  スキル：HTML/CSS/jQuery/Sass<br>
+                  <br>
+                  実装パーツ：<br>
+                  ・ハンバーガーメニュー<br>
+                  ・スライダー（Swiper）で自動再生<br>
+                  ・ふわっと表示（AOS）<br>
+                  ・アコーディオンメニュー<br>
+                  ・スムーズスクロール<br>
+                  ・お問い合わせフォーム（バリデーション）<br>
+                  <br>
+                  制作期間：10日間<br>
+                  デザインツール：XD
                 </p>
               </a>
             </div>
           </div>
+
+          <!-- 温泉旅館のコーポレートサイト -->
           <div class="works_card-list2">
-            <div class="works_card-list">
+            <div class="works_card-list" data-aos="flip-left" data-aos-duration="1200">
               <a class="works-card-link" href="https://kaiblo.com/portfolio/mediumEx/" rel="noreferrer noopener"
                 target="_blank">
                 <figure class="works_card-figure"><img src="img/石井花壇.png" alt="石井花壇"></figure>
                 <p class="works-card-text">デザインカンプからのコーディング<br>
-                  サンプル<br>
-                  (HTML/CSS/jQuery/Sass)
+                  温泉旅館のコーポレートサイト（架空）4ページ<br>
+                  ※解答コードなしの教材<br>
+                  <br>
+                  スキル：HTML/CSS/jQuery/Sass<br>
+                  <br>
+                  実装パーツ：<br>
+                  ・ハンバーガーメニュー<br>
+                  ・スライダー（Slick）でフェードイン / アウト＆ズームイン<br>
+                  ・タブ切り替え<br>
+                  ・ふわっと表示（AOS）<br>
+                  ・パンくずリスト<br>
+                  ・宿泊予約モーダル（flatpickr、バリデーション）<br>
+                  ・スクロールしたらheader変化<br>
+                  <br>
+                  制作期間：20日間<br>
+                  デザインツール：XD
                 </p>
               </a>
             </div>
-            <div class="works_card-list">
+
+            <!-- 英語スクールのコーポレートサイト -->
+            <div class="works_card-list" data-aos="flip-left" data-aos-duration="1200">
               <a class="works-card-link" href="https://engress.kaiblo.com/" rel="noreferrer noopener" target="_blank">
                 <figure class="works_card-figure"><img src="img/Engress.png" alt="Engress"></figure>
                 <p class="works-card-text">デザインカンプからのコーディング<br>
-                  サンプル<br>
-                  (HTML/CSS/jQuery/Sass/Wordpress/PHP)
+                  英語スクールのコーポレートサイト（架空）<br>
+                  ※解答コードなしの教材<br>
+                  <br>
+                  スキル：HTML/CSS/jQuery/Sass/Wordpress/PHP<br>
+                  <br>
+                  実装パーツ：<br>
+                  ・ハンバーガーメニュー<br>
+                  ・パンくずリスト（breadcrumb navxt）<br>
+                  ・アコーディオンメニュー（開閉時にアイコンが変わるように）<br>
+                  ・テキストと画像をカスタムフィールドで変更できるように（ACF）<br>
+                  ・投稿は三件のみ出るように、カスタム投稿（Custom Post Type UI）<br>
+                  ・サムネ画像はどんな画像を使用しても縦幅横幅ずれないように<br>
+                  ・文字数が多いときは文字数調整するように<br>
+                  ・レスポンシブのときは価格表を横にスクロールできルように（スクロールヒントを出す）<br>
+                  ・カテゴリーページのときは「カテゴリー一覧」となるように<br>
+                  ・記事の所属カテゴリーが複数だったとしてもサムネ右上のカテゴリー名表示は「常に一つのみ表示」で<br>
+                  ・ページネーション（テーマユニットテストデーター使用）<br>
+                  ・SNSの共有リンク（wp_social_bookmarking_light）<br>
+                  ・関連記事は「同一カテゴリーの記事」を判定して表示<br>
+                  ・記事タイトルやSNS各アイコン下の画像はサムネが自動で出力されるように<br>
+                  ・「おすすめの記事」は「pickup」タグがついた記事が表示されるようにタグで判定<br>
+                  ・お問い合わせフォーム（MW WP FORM）（全項目を入力しないと送信できない状態に、自動返信メールを設定）<br>
+                  <br>
+                  制作期間：1ヶ月<br>
+                  デザインツール：XD
                 </p>
               </a>
             </div>
+
+          </div>
+
+          <!-- 温泉旅館のコーポレートサイト -->
+          <div class="works_card-list3">
+            <div class="works_card-list" data-aos="flip-left" data-aos-duration="1200">
+              <a class="works-card-link" href="https://bboard.kaiblo.com/" rel="noreferrer noopener" target="_blank">
+                <figure class="works_card-figure"><img src="img/rainbow.png" alt="石井花壇"></figure>
+                <p class="works-card-text">既存のサイト達を参考に自作<br>
+                  レズビアン向けの掲示板<br>
+                  <br>
+                  スキル：HTML/CSS/Javascript/jQuery/Sass<br>
+                  Laravel/PHP/mySQL<br>
+                  <br>
+                  実装機能：<br>
+                  ・掲示板画面（ユーザー一覧画面）<br>
+                  ・新規投稿機能<br>
+                  ・検索機能（未実装）<br>
+                  ・最新の二人まで表示、「もっと見る」を押すと更に二人ずつ表示<br>
+                  ・「◯◯分前に投稿」表示<br>
+                  ・ユーザーをクリックするとそのユーザーの詳細画面へ<br>
+                  ・詳細画面からの編集機能（パス確認有り）<br>
+                  ・編集確認画面
+                  ・詳細画面からの削除機能（パス確認、アラート有り）（未実装）<br>
+                  ・詳細画面からそのユーザーにメール送信機能<br>
+                  <br>
+                  制作期間：35日間<br>
+                  フレームワーク：Laravel
+                </p>
+              </a>
+            </div>
+
+            <!--  -->
+            <!-- <div class="works_card-list" data-aos="flip-left" data-aos-duration="1200">
+              <a class="works-card-link" href="https://engress.kaiblo.com/" rel="noreferrer noopener" target="_blank">
+                <figure class="works_card-figure"><img src="img/Engress.png" alt="Engress"></figure>
+                <p class="works-card-text">デザインカンプからのコーディング<br>
+                  英語スクールのコーポレートサイト（架空）<br>
+                  ※解答コードなしの教材<br>
+                  <br>
+                  スキル：HTML/CSS/jQuery/Sass/Wordpress/PHP<br>
+                  <br>
+                  実装パーツ：<br>
+                  ・ハンバーガーメニュー<br>
+                  ・パンくずリスト（breadcrumb navxt）<br>
+                  ・アコーディオンメニュー（開閉時にアイコンが変わるように）<br>
+                  ・テキストと画像をカスタムフィールドで変更できるように（ACF）<br>
+                  ・投稿は三件のみ出るように、カスタム投稿（Custom Post Type UI）<br>
+                  ・サムネ画像はどんな画像を使用しても縦幅横幅ずれないように<br>
+                  ・文字数が多いときは文字数調整するように<br>
+                  ・レスポンシブのときは価格表を横にスクロールできルように（スクロールヒントを出す）<br>
+                  ・カテゴリーページのときは「カテゴリー一覧」となるように<br>
+                  ・記事の所属カテゴリーが複数だったとしてもサムネ右上のカテゴリー名表示は「常に一つのみ表示」で<br>
+                  ・ページネーション（テーマユニットテストデーター使用）<br>
+                  ・SNSの共有リンク（wp_social_bookmarking_light）<br>
+                  ・関連記事は「同一カテゴリーの記事」を判定して表示<br>
+                  ・記事タイトルやSNS各アイコン下の画像はサムネが自動で出力されるように<br>
+                  ・「おすすめの記事」は「pickup」タグがついた記事が表示されるようにタグで判定<br>
+                  ・お問い合わせフォーム（MW WP FORM）（全項目を入力しないと送信できない状態に、自動返信メールを設定）<br>
+                  <br>
+                  制作期間：1ヶ月<br>
+                  デザインツール：XD
+                </p>
+              </a>
+            </div> -->
+
           </div>
 
         </div>
@@ -224,7 +376,11 @@
   <footer class="footer">
     <small>©2021 Kai Portfolio All Rights Reserved.</small>
   </footer>
-
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

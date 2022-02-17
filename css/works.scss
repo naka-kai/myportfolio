@@ -52,7 +52,9 @@
   }
 }
 
-.works_card-list1,.works_card-list2 {
+.works_card-list1,
+.works_card-list2,
+.works_card-list3 {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -74,7 +76,7 @@
 .works-card-link {
   color: #696969;
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
 }
 
 .works_card-figure {
