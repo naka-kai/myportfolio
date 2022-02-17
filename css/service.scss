@@ -50,11 +50,14 @@
   }
 }
 
-
-
-.service_coding-title-wrapper {
+.service_coding-title-wrapper,
+.service_coding-title-wrapper2 {
   text-align: center;
   margin-top: 1.5rem;
+}
+
+.service_coding-title-wrapper2 {
+  margin-top: 5rem;
 }
 
 .service_coding-title {
@@ -120,6 +123,17 @@
   margin-right: 1rem;
   color: #000;
   opacity: .8;
+}
+
+
+.fa-laravel {
+  font-size: 7rem;
+  color: #000;
+  opacity: .8;
+
+  @include ipad {
+    font-size: 10rem;
+  }
 }
 
 .fa-wordpress {
