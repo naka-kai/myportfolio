@@ -52,7 +52,9 @@
   }
 }
 
-.works_card-list1,.works_card-list2 {
+.works_card-list1,
+.works_card-list2,
+.works_card-list3 {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
