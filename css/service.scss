@@ -50,9 +50,14 @@
   }
 }
 
+<<<<<<< HEAD
 
 
 .service_coding-title-wrapper,.service_coding-title-wrapper2 {
+=======
+.service_coding-title-wrapper,
+.service_coding-title-wrapper2 {
+>>>>>>> fbbaa88 (add laravel)
   text-align: center;
   margin-top: 1.5rem;
 }
@@ -124,6 +129,17 @@
   margin-right: 1rem;
   color: #000;
   opacity: .8;
+}
+
+
+.fa-laravel {
+  font-size: 7rem;
+  color: #000;
+  opacity: .8;
+
+  @include ipad {
+    font-size: 10rem;
+  }
 }
 
 .fa-wordpress {
