@@ -259,12 +259,8 @@ ul {
   }
 }
 
-<<<<<<< HEAD:css/service.css
-.service_coding-title-wrapper, .service_coding-title-wrapper2 {
-=======
 .service_coding-title-wrapper,
 .service_coding-title-wrapper2 {
->>>>>>> fbbaa88 (add laravel):public/css/service.css
   text-align: center;
   margin-top: 1.5rem;
 }
