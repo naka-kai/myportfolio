@@ -321,12 +321,11 @@ ul {
 }
 
 .works-card-git {
-  color: #696969;
-  font-size: 1rem;
   padding: 1rem;
 }
 
 .works-card-git a {
   text-decoration: underline;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=works.css.map */
