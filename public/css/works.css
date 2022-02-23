@@ -322,6 +322,7 @@ ul {
 
 .works-card-git {
   padding: 1rem;
+  padding-top: 0;
 }
 
 .works-card-git .works-card-git-link {
